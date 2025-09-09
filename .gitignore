@@ -104,7 +104,11 @@ dist
 
 # Gatsby files
 .cache/
-public
+# Allow images and essential public files
+# public/
+# Ignore specific unwanted files in public
+public/.DS_Store
+public/.*
 
 # Storybook build outputs
 .out
