@@ -194,8 +194,8 @@ export default function Team() {
                     </div>
                   </div>
                   <p className="text-xl text-gray-300 leading-relaxed mb-8">
-                    "Our advanced heavy machinery fleet handles the most demanding construction projects with precision and power.
-                    From excavation to site preparation, our equipment delivers exceptional results on every job."
+                    &quot;Our advanced heavy machinery fleet handles the most demanding construction projects with precision and power.
+                    From excavation to site preparation, our equipment delivers exceptional results on every job.&quot;
                   </p>
                   <div className="grid grid-cols-2 gap-6">
                     <div className="bg-white/10 rounded-lg p-4">
@@ -354,7 +354,7 @@ export default function Team() {
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold text-gray-900 mb-6">Partner With Our Equipment</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're always expanding our fleet and looking for equipment partnerships and skilled operators
+              We&apos;re always expanding our fleet and looking for equipment partnerships and skilled operators
             </p>
           </div>
 

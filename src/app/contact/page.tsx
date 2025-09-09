@@ -26,7 +26,7 @@ export default function Contact() {
                   </span>
                 </div>
                 <h1 className="text-6xl md:text-7xl font-bold mb-8 leading-tight">
-                  Let's Build
+                  Let&apos;s Build
                   <span className="block text-orange-400">Something Great</span>
                   <span className="block">Together</span>
                 </h1>
@@ -360,7 +360,7 @@ export default function Contact() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Ready to Start Your Project?</h2>
           <p className="text-xl text-orange-100 mb-8">
-            Don't wait - get your free consultation and quote today. Our team is ready to bring your vision to life.
+            Don&apos;t wait - get your free consultation and quote today. Our team is ready to bring your vision to life.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-orange-600 font-bold py-4 px-8 rounded-lg text-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105">

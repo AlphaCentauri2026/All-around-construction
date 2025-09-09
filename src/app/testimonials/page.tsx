@@ -122,7 +122,7 @@ export default function Testimonials() {
                     ))}
                   </div>
                   <p className="text-gray-300 italic leading-relaxed">
-                    "Outstanding modern construction techniques and attention to detail! They delivered exceptional quality in our residential development project."
+                    &quot;Outstanding modern construction techniques and attention to detail! They delivered exceptional quality in our residential development project.&quot;
                   </p>
                 </div>
               </div>
@@ -164,7 +164,7 @@ export default function Testimonials() {
                     ))}
                   </div>
                   <blockquote className="text-2xl leading-relaxed italic mb-8">
-                    "All-Around Construction delivered exactly what they promised. Their modern construction techniques and crane operations were top-notch throughout our commercial build. They completed on time and within budget using state-of-the-art equipment. Highly recommend!"
+                    &quot;All-Around Construction delivered exactly what they promised. Their modern construction techniques and crane operations were top-notch throughout our commercial build. They completed on time and within budget using state-of-the-art equipment. Highly recommend!&quot;
                   </blockquote>
                   <div className="flex items-center">
                     <div className="bg-white/20 rounded-lg p-4 mr-6">
@@ -234,7 +234,7 @@ export default function Testimonials() {
                   <blockquote className={`italic leading-relaxed mb-6 ${
                     index === 0 ? 'text-gray-300' : 'text-gray-700'
                   }`}>
-                    "{testimonial.feedback}"
+                    &quot;{testimonial.feedback}&quot;
                   </blockquote>
                   
                   <div className="flex items-center justify-between">
@@ -322,7 +322,7 @@ export default function Testimonials() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-lg"></div>
                 </div>
                 <blockquote className="text-gray-300 italic mb-6 leading-relaxed">
-                  "{story.quote}"
+                  &quot;{story.quote}&quot;
                 </blockquote>
                 <div className="flex justify-between items-center">
                   <div>
@@ -346,7 +346,7 @@ export default function Testimonials() {
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold text-gray-900 mb-6">Why Clients Trust Us</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our track record speaks for itself - here's what sets us apart
+              Our track record speaks for itself - here&apos;s what sets us apart
             </p>
           </div>
 

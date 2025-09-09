@@ -40,7 +40,7 @@ export interface Project {
   title: string;
   description: string;
   image: string;
-  category: 'Residential' | 'Commercial' | 'Renovation' | 'Foundation' | 'Equipment';
+  category: 'Residential' | 'Commercial' | 'Infrastructure' | 'Site Management' | 'Renovation' | 'Facilities';
 }
 
 // Testimonial Types
@@ -50,7 +50,7 @@ export interface Testimonial {
   feedback: string;
   rating: number;
   image: string;
-  project: string;
+  project?: string;
 }
 
 // Gallery Image Types

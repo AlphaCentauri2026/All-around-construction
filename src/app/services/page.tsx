@@ -253,7 +253,7 @@ export default function Services() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Ready to Start Your Project?</h2>
           <p className="text-xl text-orange-100 mb-8">
-            Let's discuss your construction needs and create something amazing together
+            Let&apos;s discuss your construction needs and create something amazing together
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-orange-600 font-bold py-4 px-8 rounded-lg text-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105">

@@ -369,7 +369,7 @@ export default function Projects() {
                     <span key={i} className="text-orange-400 text-xl">★</span>
                   ))}
                 </div>
-                <p className="text-gray-700 italic leading-relaxed">"{testimonial.quote}"</p>
+                <p className="text-gray-700 italic leading-relaxed">&quot;{testimonial.quote}&quot;</p>
               </div>
             ))}
           </div>

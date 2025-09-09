@@ -14,8 +14,7 @@ import company from '../data/company.json';
 const Hero: React.FC<HeroProps> = ({ 
   backgroundImage = "url('/images/Leonardo_Vision_XL_Commercial_building_under_construction_cran_1.jpg')",
   title,
-  subtitle,
-  showStats = false 
+  subtitle 
 }) => {
   const companyData = company as CompanyInfo;
 

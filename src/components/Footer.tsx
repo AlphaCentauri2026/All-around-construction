@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { CompanyInfo } from '../types';
 import company from '../data/company.json';
 
@@ -35,10 +36,10 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-xs font-semibold mb-1 uppercase tracking-wider">Navigation</h4>
             <ul className="space-y-1">
-              <li><a href="/" className="text-gray-400 hover:text-white transition-colors text-xs">Home</a></li>
-              <li><a href="/about" className="text-gray-400 hover:text-white transition-colors text-xs">About Us</a></li>
-              <li><a href="/services" className="text-gray-400 hover:text-white transition-colors text-xs">Services</a></li>
-              <li><a href="/projects" className="text-gray-400 hover:text-white transition-colors text-xs">Projects</a></li>
+              <li><Link href="/" className="text-gray-400 hover:text-white transition-colors text-xs">Home</Link></li>
+              <li><Link href="/about" className="text-gray-400 hover:text-white transition-colors text-xs">About Us</Link></li>
+              <li><Link href="/services" className="text-gray-400 hover:text-white transition-colors text-xs">Services</Link></li>
+              <li><Link href="/projects" className="text-gray-400 hover:text-white transition-colors text-xs">Projects</Link></li>
             </ul>
           </div>
 

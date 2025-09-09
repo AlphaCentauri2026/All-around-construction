@@ -1,5 +1,4 @@
 import { Navigation, Footer } from '../../components';
-import Image from 'next/image';
 
 export default function Gallery() {
   const galleryImages = [

@@ -112,7 +112,7 @@ export default function About() {
             <div className="bg-white rounded-lg shadow-lg p-8">
               <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
               <p className="text-gray-700 mb-4">
-                To provide exceptional construction services that exceed our clients' expectations while maintaining the highest standards of safety and quality. We are committed to building lasting relationships through integrity, innovation, and superior craftsmanship.
+                To provide exceptional construction services that exceed our clients&apos; expectations while maintaining the highest standards of safety and quality. We are committed to building lasting relationships through integrity, innovation, and superior craftsmanship.
               </p>
               <p className="text-gray-700 mb-4">
                 Every project we undertake is an opportunity to demonstrate our dedication to excellence and our passion for creating spaces that inspire and endure.

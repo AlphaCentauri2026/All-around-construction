@@ -28,7 +28,7 @@ const Testimonials: React.FC<SectionProps> = ({ className = "" }) => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-white mb-4">What Our Clients Say</h2>
             <p className="text-xl text-gray-100 max-w-2xl mx-auto">
-              Don't just take our word for it - hear from our satisfied customers
+              Don&apos;t just take our word for it - hear from our satisfied customers
             </p>
           </div>
 
@@ -64,7 +64,7 @@ const Testimonials: React.FC<SectionProps> = ({ className = "" }) => {
 
                 {/* Feedback */}
                 <p className="text-gray-700 mb-6 italic leading-relaxed">
-                  "{testimonial.feedback}"
+                  &quot;{testimonial.feedback}&quot;
                 </p>
 
                 {/* Client Name */}

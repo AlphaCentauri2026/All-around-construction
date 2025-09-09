@@ -65,8 +65,8 @@ export default function Home() {
               </p>
               <div className="bg-gray-100 p-6 rounded-lg border-l-4 border-orange-600">
                 <p className="text-gray-700 italic">
-                  "We believe every construction project is an opportunity to create something extraordinary. 
-                  From the first blueprint to the final nail, we pour our passion and expertise into every detail."
+                  &quot;We believe every construction project is an opportunity to create something extraordinary.
+                  From the first blueprint to the final nail, we pour our passion and expertise into every detail.&quot;
                 </p>
               </div>
             </div>
