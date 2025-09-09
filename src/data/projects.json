@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Residential Development",
+    "description": "Complete construction of contemporary residential homes using advanced building techniques, sustainable materials, and modern architectural design.",
+    "image": "/images/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Commercial Tower Project",
+    "description": "Large-scale commercial construction featuring crane operations, structural steel work, and modern building systems for office complexes.",
+    "image": "/images/Leonardo_Vision_XL_Commercial_building_under_construction_cran_1.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Heavy Equipment Site Preparation",
+    "description": "Comprehensive site development using professional heavy machinery for land preparation, excavation, and foundation work.",
+    "image": "/images/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_1.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Construction Site Overview",
+    "description": "Full construction site management from foundation work through structural completion, showcasing our comprehensive project capabilities.",
+    "image": "/images/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_1.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Modern Office Renovation",
+    "description": "Interior renovation and modernization of office spaces with contemporary design, electrical upgrades, and structural improvements.",
+    "image": "/images/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_1.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Construction Management Hub",
+    "description": "State-of-the-art construction management facility with digital planning tools, architectural visualization, and project coordination spaces.",
+    "image": "/images/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_1.jpg"
+  }
+]
+

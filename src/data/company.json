@@ -1,0 +1,20 @@
+{
+  "name": "All-Around Construction",
+  "tagline": "Modern Construction Excellence with Advanced Equipment",
+  "description": "Leading the construction industry with over 20 years of experience in modern building techniques, heavy equipment operations, and sustainable construction. All-Around Construction specializes in residential and commercial projects using state-of-the-art machinery, crane operations, and cutting-edge construction methods. We deliver high-quality workmanship with innovative solutions and exceptional project management. Our commitment to safety, precision, and modern architectural excellence ensures every project exceeds expectations.",
+  "phone": "(555) 123-4567",
+  "email": "info@allaroundconstruction.com",
+  "address": {
+    "street": "123 Construction Way",
+    "city": "Buildville",
+    "state": "CA",
+    "zip": "90210"
+  },
+  "social": {
+    "facebook": "https://facebook.com/allaroundconstruction",
+    "twitter": "https://twitter.com/allaroundconstruction",
+    "instagram": "https://instagram.com/allaroundconstruction",
+    "linkedin": "https://linkedin.com/company/allaroundconstruction"
+  }
+}
+

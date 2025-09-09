@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "Johnson Property Development",
+    "feedback": "The modern residential construction exceeded our expectations. Their use of cutting-edge techniques and premium materials resulted in a contemporary home that perfectly matches our vision. Exceptional quality throughout the entire project.",
+    "rating": 5,
+    "image": "/images/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_0.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chen Commercial Group",
+    "feedback": "Outstanding commercial construction work with crane operations. The team's expertise in large-scale projects and modern building techniques delivered exactly what we needed for our office complex. Professional execution from start to finish.",
+    "rating": 5,
+    "image": "/images/Leonardo_Vision_XL_Commercial_building_under_construction_cran_2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Rodriguez Residential",
+    "feedback": "Building our dream home was a smooth experience with their modern construction methods. The attention to sustainable design and advanced building techniques resulted in a home we're proud to call ours. Unmatched expertise and dedication.",
+    "rating": 5,
+    "image": "/images/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Thompson Construction Services",
+    "feedback": "The heavy equipment operations and site preparation work was exceptional. Their professional machinery operations and foundation work restored complete structural integrity. Knowledgeable, efficient, and reliable service.",
+    "rating": 5,
+    "image": "/images/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_2.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Park Office Solutions",
+    "feedback": "The modern office renovation was completed on time and within budget. Their expertise in renovation projects and contemporary design implementation resulted in a workspace that enhances our productivity. Outstanding results.",
+    "rating": 5,
+    "image": "/images/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_2.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Williams Construction Management",
+    "feedback": "Professional construction management with state-of-the-art tools. Their modern office environment and digital planning capabilities made our project coordination seamless. Reliable and skilled in every aspect.",
+    "rating": 5,
+    "image": "/images/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_2.jpg"
+  }
+]
+
