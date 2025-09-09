@@ -10,7 +10,7 @@ export default function Home() {
       <section
         className="relative h-screen bg-cover bg-center bg-fixed pt-16"
         style={{
-          backgroundImage: "url('/images/Leonardo_Vision_XL_Commercial_building_under_construction_cran_1.jpg')"
+          backgroundImage: "url('/Leonardo_Vision_XL_Commercial_building_under_construction_cran_1.jpg')"
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-transparent"></div>
@@ -76,14 +76,14 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="aspect-square rounded-lg overflow-hidden shadow-lg">
                   <img
-                    src="/images/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_2.jpg"
+                    src="/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_2.jpg"
                     alt="Modern Construction Company"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden shadow-lg">
                   <img
-                    src="/images/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_3.jpg"
+                    src="/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_3.jpg"
                     alt="Construction Management Office"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   />
@@ -92,14 +92,14 @@ export default function Home() {
               <div className="space-y-4 mt-8">
                 <div className="aspect-square rounded-lg overflow-hidden shadow-lg">
                   <img
-                    src="/images/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg"
+                    src="/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg"
                     alt="Heavy Construction Equipment"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden shadow-lg">
                   <img
-                    src="/images/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_2.jpg"
+                    src="/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_2.jpg"
                     alt="Construction Site Overview"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   />
@@ -114,7 +114,7 @@ export default function Home() {
       <section 
         className="py-20 relative"
         style={{
-          backgroundImage: "url('/images/Leonardo_Vision_XL_Commercial_building_under_construction_cran_2.jpg')",
+          backgroundImage: "url('/Leonardo_Vision_XL_Commercial_building_under_construction_cran_2.jpg')",
           backgroundAttachment: 'fixed',
           backgroundSize: 'cover',
           backgroundPosition: 'center'

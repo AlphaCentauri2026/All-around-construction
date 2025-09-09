@@ -3,52 +3,52 @@ import { Navigation, Footer } from '../../components';
 export default function Gallery() {
   const galleryImages = [
     // Aerial Views
-    { src: "/images/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_0.jpg", alt: "Aerial View of Modern Construction Site", category: "Aerial Views" },
-    { src: "/images/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_1.jpg", alt: "Bird's Eye View Construction Site", category: "Aerial Views" },
-    { src: "/images/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_2.jpg", alt: "Overhead Construction Site View", category: "Aerial Views" },
-    { src: "/images/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_3.jpg", alt: "Aerial Construction Site Perspective", category: "Aerial Views" },
+    { src: "/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_0.jpg", alt: "Aerial View of Modern Construction Site", category: "Aerial Views" },
+    { src: "/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_1.jpg", alt: "Bird's Eye View Construction Site", category: "Aerial Views" },
+    { src: "/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_2.jpg", alt: "Overhead Construction Site View", category: "Aerial Views" },
+    { src: "/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_3.jpg", alt: "Aerial Construction Site Perspective", category: "Aerial Views" },
 
     // Construction Machinery
-    { src: "/images/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_0.jpg", alt: "Heavy Construction Equipment", category: "Machinery" },
-    { src: "/images/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_1.jpg", alt: "Professional Bulldozer Operations", category: "Machinery" },
-    { src: "/images/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_2.jpg", alt: "Advanced Construction Machinery", category: "Machinery" },
-    { src: "/images/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg", alt: "Heavy Equipment at Work", category: "Machinery" },
+    { src: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_0.jpg", alt: "Heavy Construction Equipment", category: "Machinery" },
+    { src: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_1.jpg", alt: "Professional Bulldozer Operations", category: "Machinery" },
+    { src: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_2.jpg", alt: "Advanced Construction Machinery", category: "Machinery" },
+    { src: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg", alt: "Heavy Equipment at Work", category: "Machinery" },
 
     // Commercial Construction
-    { src: "/images/Leonardo_Vision_XL_Commercial_building_under_construction_cran_0.jpg", alt: "Commercial Building with Crane", category: "Commercial" },
-    { src: "/images/Leonardo_Vision_XL_Commercial_building_under_construction_cran_1.jpg", alt: "Office Tower Construction", category: "Commercial" },
-    { src: "/images/Leonardo_Vision_XL_Commercial_building_under_construction_cran_2.jpg", alt: "High-Rise Commercial Project", category: "Commercial" },
-    { src: "/images/Leonardo_Vision_XL_Commercial_building_under_construction_cran_3.jpg", alt: "Commercial Construction Site", category: "Commercial" },
+    { src: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_0.jpg", alt: "Commercial Building with Crane", category: "Commercial" },
+    { src: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_1.jpg", alt: "Office Tower Construction", category: "Commercial" },
+    { src: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_2.jpg", alt: "High-Rise Commercial Project", category: "Commercial" },
+    { src: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_3.jpg", alt: "Commercial Construction Site", category: "Commercial" },
 
     // Residential Construction
-    { src: "/images/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_0.jpg", alt: "Modern Residential Construction", category: "Residential" },
-    { src: "/images/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_1.jpg", alt: "Contemporary Home Building", category: "Residential" },
-    { src: "/images/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_2.jpg", alt: "Residential Development Project", category: "Residential" },
-    { src: "/images/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_3.jpg", alt: "Modern House Construction", category: "Residential" },
+    { src: "/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_0.jpg", alt: "Modern Residential Construction", category: "Residential" },
+    { src: "/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_1.jpg", alt: "Contemporary Home Building", category: "Residential" },
+    { src: "/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_2.jpg", alt: "Residential Development Project", category: "Residential" },
+    { src: "/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_3.jpg", alt: "Modern House Construction", category: "Residential" },
 
     // Foundation & Site Work
-    { src: "/images/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_0.jpg", alt: "Foundation Work Overview", category: "Foundation" },
-    { src: "/images/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_1.jpg", alt: "Site Development Progress", category: "Foundation" },
-    { src: "/images/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_2.jpg", alt: "Construction Site Foundations", category: "Foundation" },
-    { src: "/images/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_3.jpg", alt: "Structural Foundation Work", category: "Foundation" },
+    { src: "/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_0.jpg", alt: "Foundation Work Overview", category: "Foundation" },
+    { src: "/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_1.jpg", alt: "Site Development Progress", category: "Foundation" },
+    { src: "/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_2.jpg", alt: "Construction Site Foundations", category: "Foundation" },
+    { src: "/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_3.jpg", alt: "Structural Foundation Work", category: "Foundation" },
 
     // Company & Office Exteriors
-    { src: "/images/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_0.jpg", alt: "Modern Construction Company", category: "Company" },
-    { src: "/images/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_1.jpg", alt: "Construction Firm Headquarters", category: "Company" },
-    { src: "/images/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_2.jpg", alt: "Professional Construction Office", category: "Company" },
-    { src: "/images/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_3.jpg", alt: "Modern Construction Complex", category: "Company" },
+    { src: "/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_0.jpg", alt: "Modern Construction Company", category: "Company" },
+    { src: "/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_1.jpg", alt: "Construction Firm Headquarters", category: "Company" },
+    { src: "/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_2.jpg", alt: "Professional Construction Office", category: "Company" },
+    { src: "/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_3.jpg", alt: "Modern Construction Complex", category: "Company" },
 
     // Office Interiors
-    { src: "/images/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_0.jpg", alt: "Construction Management Office", category: "Office" },
-    { src: "/images/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_1.jpg", alt: "Project Planning Office", category: "Office" },
-    { src: "/images/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_2.jpg", alt: "Architectural Design Studio", category: "Office" },
-    { src: "/images/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_3.jpg", alt: "Modern Construction Workspace", category: "Office" },
+    { src: "/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_0.jpg", alt: "Construction Management Office", category: "Office" },
+    { src: "/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_1.jpg", alt: "Project Planning Office", category: "Office" },
+    { src: "/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_2.jpg", alt: "Architectural Design Studio", category: "Office" },
+    { src: "/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_3.jpg", alt: "Modern Construction Workspace", category: "Office" },
 
     // Renovation Projects
-    { src: "/images/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_0.jpg", alt: "Office Renovation Project", category: "Renovation" },
-    { src: "/images/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_1.jpg", alt: "Interior Renovation Work", category: "Renovation" },
-    { src: "/images/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_2.jpg", alt: "Modern Office Renovation", category: "Renovation" },
-    { src: "/images/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_3.jpg", alt: "Commercial Renovation Project", category: "Renovation" }
+    { src: "/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_0.jpg", alt: "Office Renovation Project", category: "Renovation" },
+    { src: "/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_1.jpg", alt: "Interior Renovation Work", category: "Renovation" },
+    { src: "/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_2.jpg", alt: "Modern Office Renovation", category: "Renovation" },
+    { src: "/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_3.jpg", alt: "Commercial Renovation Project", category: "Renovation" }
   ];
 
   const categories = ["All", "Aerial Views", "Machinery", "Commercial", "Residential", "Foundation", "Company", "Office", "Renovation"];
@@ -61,7 +61,7 @@ export default function Gallery() {
       <section className="relative h-screen pt-16 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/images/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_2.jpg"
+            src="/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_2.jpg"
             alt="Project Gallery"
             className="w-full h-full object-cover"
           />
@@ -106,13 +106,13 @@ export default function Gallery() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-4">
                     <div className="relative group">
-                      <img src="/images/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_1.jpg" alt="Residential Project" className="w-full h-48 object-cover rounded-lg" />
+                      <img src="/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_1.jpg" alt="Residential Project" className="w-full h-48 object-cover rounded-lg" />
                       <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
                         <span className="text-white font-semibold">Residential</span>
                       </div>
                     </div>
                     <div className="relative group">
-                      <img src="/images/Leonardo_Vision_XL_Commercial_building_under_construction_cran_1.jpg" alt="Commercial Project" className="w-full h-32 object-cover rounded-lg" />
+                      <img src="/Leonardo_Vision_XL_Commercial_building_under_construction_cran_1.jpg" alt="Commercial Project" className="w-full h-32 object-cover rounded-lg" />
                       <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
                         <span className="text-white font-semibold">Commercial</span>
                       </div>
@@ -120,13 +120,13 @@ export default function Gallery() {
                   </div>
                   <div className="space-y-4 mt-8">
                     <div className="relative group">
-                      <img src="/images/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_1.jpg" alt="Heavy Equipment" className="w-full h-32 object-cover rounded-lg" />
+                      <img src="/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_1.jpg" alt="Heavy Equipment" className="w-full h-32 object-cover rounded-lg" />
                       <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
                         <span className="text-white font-semibold">Machinery</span>
                       </div>
                     </div>
                     <div className="relative group">
-                      <img src="/images/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_1.jpg" alt="Aerial Construction View" className="w-full h-48 object-cover rounded-lg" />
+                      <img src="/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_1.jpg" alt="Aerial Construction View" className="w-full h-48 object-cover rounded-lg" />
                       <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
                         <span className="text-white font-semibold">Aerial Views</span>
                       </div>
@@ -153,7 +153,7 @@ export default function Gallery() {
           <div className="mb-16">
             <div className="relative h-96 rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/images/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_1.jpg"
+                src="/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_1.jpg"
                 alt="Featured Project"
                 className="w-full h-full object-cover"
               />
@@ -222,7 +222,7 @@ export default function Gallery() {
       <section 
         className="py-20 relative"
         style={{
-          backgroundImage: "url('/images/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_3.jpg')",
+          backgroundImage: "url('/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_3.jpg')",
           backgroundAttachment: 'fixed',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
@@ -242,28 +242,28 @@ export default function Gallery() {
               {
                 title: "Residential",
                 description: "Modern Homes & Developments",
-                image: "/images/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_2.jpg",
+                image: "/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_2.jpg",
                 count: "15+",
                 projects: "Projects"
               },
               {
                 title: "Commercial",
                 description: "Office Buildings & Towers",
-                image: "/images/Leonardo_Vision_XL_Commercial_building_under_construction_cran_2.jpg",
+                image: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_2.jpg",
                 count: "10+",
                 projects: "Projects"
               },
               {
                 title: "Machinery",
                 description: "Heavy Equipment Operations",
-                image: "/images/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_2.jpg",
+                image: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_2.jpg",
                 count: "20+",
                 projects: "Machines"
               },
               {
                 title: "Foundation",
                 description: "Site Development & Foundations",
-                image: "/images/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_2.jpg",
+                image: "/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_2.jpg",
                 count: "25+",
                 projects: "Sites"
               }
@@ -304,25 +304,25 @@ export default function Gallery() {
                 number: "500+",
                 label: "Projects Completed",
                 description: "Successfully delivered construction projects using advanced techniques",
-                image: "/images/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_3.jpg"
+                image: "/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_3.jpg"
               },
               {
                 number: "100%",
                 label: "Client Satisfaction",
                 description: "Happy clients who trust our modern construction methods",
-                image: "/images/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_3.jpg"
+                image: "/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_3.jpg"
               },
               {
                 number: "15+",
                 label: "Years Experience",
                 description: "Decades of modern construction expertise and equipment operation",
-                image: "/images/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg"
+                image: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg"
               },
               {
                 number: "25+",
                 label: "Heavy Machines",
                 description: "Professional heavy equipment fleet for all project needs",
-                image: "/images/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_3.jpg"
+                image: "/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_3.jpg"
               }
             ].map((stat, index) => (
               <div key={index} className="bg-white rounded-2xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow duration-300 group">

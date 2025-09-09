@@ -7,25 +7,25 @@ export default function Services() {
       id: 7,
       title: "Interior Renovation",
       description: "Modern office interior renovations with contemporary design and structural improvements.",
-      image: "/images/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_3.jpg"
+      image: "/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_3.jpg"
     },
     {
       id: 8,
       title: "Equipment Operations",
       description: "Professional heavy machinery operations for site preparation and construction needs.",
-      image: "/images/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg"
+      image: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg"
     },
     {
       id: 9,
       title: "Foundation Work",
       description: "Complete foundation and structural work for residential and commercial buildings.",
-      image: "/images/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_3.jpg"
+      image: "/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_3.jpg"
     },
     {
       id: 10,
       title: "Project Management",
       description: "State-of-the-art construction management with digital planning and coordination.",
-      image: "/images/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_3.jpg"
+      image: "/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_3.jpg"
     }
   ];
 
@@ -39,7 +39,7 @@ export default function Services() {
       <section className="relative h-screen pt-16 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/images/Leonardo_Vision_XL_Commercial_building_under_construction_cran_3.jpg"
+            src="/Leonardo_Vision_XL_Commercial_building_under_construction_cran_3.jpg"
             alt="Construction Services"
             className="w-full h-full object-cover"
           />
@@ -75,21 +75,21 @@ export default function Services() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-4">
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <img src="/images/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_3.jpg" alt="Residential Construction" className="w-full h-24 object-cover rounded mb-2" />
+                      <img src="/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_3.jpg" alt="Residential Construction" className="w-full h-24 object-cover rounded mb-2" />
                       <h3 className="text-white font-semibold">Residential</h3>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <img src="/images/Leonardo_Vision_XL_Commercial_building_under_construction_cran_3.jpg" alt="Commercial Construction" className="w-full h-24 object-cover rounded mb-2" />
+                      <img src="/Leonardo_Vision_XL_Commercial_building_under_construction_cran_3.jpg" alt="Commercial Construction" className="w-full h-24 object-cover rounded mb-2" />
                       <h3 className="text-white font-semibold">Commercial</h3>
                     </div>
                   </div>
                   <div className="space-y-4 mt-8">
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <img src="/images/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg" alt="Heavy Equipment" className="w-full h-24 object-cover rounded mb-2" />
+                      <img src="/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg" alt="Heavy Equipment" className="w-full h-24 object-cover rounded mb-2" />
                       <h3 className="text-white font-semibold">Equipment</h3>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <img src="/images/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_3.jpg" alt="Renovation" className="w-full h-24 object-cover rounded mb-2" />
+                      <img src="/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_3.jpg" alt="Renovation" className="w-full h-24 object-cover rounded mb-2" />
                       <h3 className="text-white font-semibold">Renovations</h3>
                     </div>
                   </div>
@@ -156,7 +156,7 @@ export default function Services() {
       <section 
         className="py-20 relative"
         style={{
-          backgroundImage: "url('/images/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_3.jpg')",
+          backgroundImage: "url('/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_3.jpg')",
           backgroundAttachment: 'fixed',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
@@ -181,28 +181,28 @@ export default function Services() {
                   step: "01",
                   title: "Consultation",
                   description: "We discuss your vision, requirements, and budget to understand your project goals.",
-                  image: "/images/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_0.jpg",
+                  image: "/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_0.jpg",
                   side: "left"
                 },
                 {
                   step: "02",
                   title: "Planning & Design",
                   description: "Detailed project planning, architectural drawings, and material selection using modern construction management tools.",
-                  image: "/images/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_0.jpg",
+                  image: "/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_0.jpg",
                   side: "right"
                 },
                 {
                   step: "03",
                   title: "Construction",
                   description: "Expert craftsmanship and quality work with regular progress updates using advanced construction equipment.",
-                  image: "/images/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_0.jpg",
+                  image: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_0.jpg",
                   side: "left"
                 },
                 {
                   step: "04",
                   title: "Completion",
                   description: "Final inspection, quality assurance, and project handover with comprehensive documentation.",
-                  image: "/images/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_0.jpg",
+                  image: "/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_0.jpg",
                   side: "right"
                 }
               ].map((item, index) => (

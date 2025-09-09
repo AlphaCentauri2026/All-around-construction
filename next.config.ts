@@ -3,12 +3,17 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   // Template configuration for construction website
   images: {
-    domains: ['localhost'],
+    domains: ['localhost', 'vercel-preview.app', 'vercel.app'],
     formats: ['image/webp', 'image/avif'],
-    unoptimized: true // Disable image optimization for static export
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
   },
-  // Enable static export for easy deployment
-  output: 'export',
+  // Remove static export for better Vercel deployment
+  // output: 'export',
   trailingSlash: true
 };
 
