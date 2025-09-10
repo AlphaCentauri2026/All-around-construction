@@ -14,14 +14,14 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-console.log('🏗️  All-Around Construction Website Template Setup');
+console.log('🏗️  Construction Template Website Setup');
 console.log('==================================================\n');
 
 const questions = [
   {
     key: 'companyName',
     question: 'What is your company name? ',
-    default: 'All-Around Construction'
+    default: 'Construction Template'
   },
   {
     key: 'tagline',
