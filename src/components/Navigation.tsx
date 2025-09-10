@@ -51,8 +51,9 @@ const Navigation: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="h-10 w-10 bg-orange-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
-              AC
+            {/* Replace this with your actual logo */}
+            <div className="h-10 w-10 bg-orange-600 rounded-lg flex items-center justify-center text-white font-bold text-lg">
+              CT
             </div>
           </div>
 

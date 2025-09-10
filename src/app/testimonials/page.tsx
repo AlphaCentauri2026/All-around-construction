@@ -6,7 +6,7 @@ export default function Testimonials() {
     {
       id: 7,
       name: "Thompson Construction Services",
-      feedback: "All-Around Construction exceeded our expectations with their professional heavy equipment operations and modern construction techniques. They were always on time and kept us informed throughout the foundation work process.",
+      feedback: "Construction Template exceeded our expectations with their professional heavy equipment operations and modern construction techniques. They were always on time and kept us informed throughout the foundation work process.",
       rating: 5,
       image: "/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_1.jpg",
       project: "Foundation & Site Work"
@@ -14,7 +14,7 @@ export default function Testimonials() {
     {
       id: 8,
       name: "Martinez Development Group",
-      feedback: "Working with All-Around Construction was a pleasure. Their attention to detail in machinery operations and commitment to excellence is unmatched. Would definitely hire them again!",
+      feedback: "Working with Construction Template was a pleasure. Their attention to detail in machinery operations and commitment to excellence is unmatched. Would definitely hire them again!",
       rating: 5,
       image: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_1.jpg",
       project: "Heavy Equipment Operations"
@@ -22,7 +22,7 @@ export default function Testimonials() {
     {
       id: 9,
       name: "Davis Commercial Properties",
-      feedback: "The quality of work from All-Around Construction is outstanding. They transformed our commercial space using modern construction techniques and crane operations.",
+      feedback: "The quality of work from Construction Template is outstanding. They transformed our commercial space using modern construction techniques and crane operations.",
       rating: 5,
       image: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_2.jpg",
       project: "Commercial Construction"
@@ -30,7 +30,7 @@ export default function Testimonials() {
     {
       id: 10,
       name: "Johnson Property Management",
-      feedback: "From consultation to completion, All-Around Construction provided exceptional service. Their expertise in residential construction and professionalism made our project a success.",
+      feedback: "From consultation to completion, Construction Template provided exceptional service. Their expertise in residential construction and professionalism made our project a success.",
       rating: 5,
       image: "/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_2.jpg",
       project: "Residential Development"
@@ -38,7 +38,7 @@ export default function Testimonials() {
     {
       id: 11,
       name: "Thompson Office Solutions",
-      feedback: "All-Around Construction delivered exactly what they promised. Their modern renovation techniques and project management were top-notch throughout our office renovation.",
+      feedback: "Construction Template delivered exactly what they promised. Their modern renovation techniques and project management were top-notch throughout our office renovation.",
       rating: 5,
       image: "/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_2.jpg",
       project: "Office Renovation"
@@ -46,7 +46,7 @@ export default function Testimonials() {
     {
       id: 12,
       name: "Rodriguez Construction Management",
-      feedback: "We couldn't be happier with our new construction management facility. All-Around Construction's quality work and advanced equipment made the entire process enjoyable.",
+      feedback: "We couldn't be happier with our new construction management facility. Construction Template's quality work and advanced equipment made the entire process enjoyable.",
       rating: 5,
       image: "/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_2.jpg",
       project: "Construction Management"
@@ -91,7 +91,12 @@ export default function Testimonials() {
                     <div className="text-sm text-gray-300">Happy Clients</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-orange-400">4.9★</div>
+                    <div className="text-3xl font-bold text-orange-400 flex items-center gap-1">
+                      4.9
+                      <svg className="w-6 h-6 text-orange-400" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    </div>
                     <div className="text-sm text-gray-300">Average Rating</div>
                   </div>
                   <div className="text-center">
@@ -118,7 +123,9 @@ export default function Testimonials() {
                   </div>
                   <div className="flex mb-4">
                     {[...Array(5)].map((_, i) => (
-                      <span key={i} className="text-orange-400 text-xl">★</span>
+                      <svg key={i} className="w-5 h-5 text-orange-400" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
                     ))}
                   </div>
                   <p className="text-gray-300 italic leading-relaxed">
@@ -160,11 +167,13 @@ export default function Testimonials() {
                   </div>
                   <div className="flex mb-6">
                     {[...Array(5)].map((_, i) => (
-                      <span key={i} className="text-yellow-300 text-2xl">★</span>
+                      <svg key={i} className="w-6 h-6 text-yellow-300" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
                     ))}
                   </div>
                   <blockquote className="text-2xl leading-relaxed italic mb-8">
-                    &quot;All-Around Construction delivered exactly what they promised. Their modern construction techniques and crane operations were top-notch throughout our commercial build. They completed on time and within budget using state-of-the-art equipment. Highly recommend!&quot;
+                    &quot;Construction Template delivered exactly what they promised. Their modern construction techniques and crane operations were top-notch throughout our commercial build. They completed on time and within budget using state-of-the-art equipment. Highly recommend!&quot;
                   </blockquote>
                   <div className="flex items-center">
                     <div className="bg-white/20 rounded-lg p-4 mr-6">
@@ -225,9 +234,11 @@ export default function Testimonials() {
                   
                   <div className="flex mb-4">
                     {[...Array(testimonial.rating)].map((_, i) => (
-                      <span key={i} className={`text-xl ${
+                      <svg key={i} className={`w-5 h-5 ${
                         index === 0 ? 'text-yellow-300' : 'text-orange-400'
-                      }`}>★</span>
+                      }`} fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
                     ))}
                   </div>
                   
@@ -241,9 +252,14 @@ export default function Testimonials() {
                     <span className={`text-sm ${
                       index === 0 ? 'text-gray-400' : 'text-gray-500'
                     }`}>Verified Customer</span>
-                    <span className={`text-sm font-semibold ${
+                    <span className={`text-sm font-semibold flex items-center gap-1 ${
                       index === 0 ? 'text-orange-400' : 'text-orange-600'
-                    }`}>5.0 ★</span>
+                    }`}>
+                      5.0
+                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -353,25 +369,41 @@ export default function Testimonials() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[
               {
-                icon: "🏆",
+                icon: (
+                  <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                ),
                 title: "Award Winning",
                 description: "Recognized for excellence in construction and customer service",
                 stat: "15+ Awards"
               },
               {
-                icon: "⏰",
+                icon: (
+                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                ),
                 title: "On-Time Delivery",
                 description: "We complete projects on schedule, every time",
                 stat: "98% On-Time"
               },
               {
-                icon: "💰",
+                icon: (
+                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                  </svg>
+                ),
                 title: "Budget Conscious",
                 description: "Transparent pricing with no hidden costs",
                 stat: "100% Transparent"
               },
               {
-                icon: "🛡️",
+                icon: (
+                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                ),
                 title: "Fully Insured",
                 description: "Licensed, bonded, and insured for your protection",
                 stat: "Fully Licensed"
@@ -379,7 +411,7 @@ export default function Testimonials() {
             ].map((item, index) => (
               <div key={index} className="text-center group">
                 <div className="bg-orange-600 text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <span className="text-3xl">{item.icon}</span>
+                  {item.icon}
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">{item.title}</h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">{item.description}</p>

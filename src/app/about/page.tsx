@@ -38,7 +38,7 @@ export default function About() {
                 {company.description}
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Founded in 2008, All-Around Construction began as a small family business with a simple mission: to provide exceptional construction services that exceed client expectations. What started as a local operation has grown into one of the most trusted construction companies in the region, completing over 500 projects and maintaining a 100% client satisfaction rate.
+                Founded in 2008, Construction Template began as a small family business with a simple mission: to provide exceptional construction services that exceed client expectations. What started as a local operation has grown into one of the most trusted construction companies in the region, completing over 500 projects and maintaining a 100% client satisfaction rate.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Our growth has been built on a foundation of integrity, quality craftsmanship, and unwavering commitment to our clients. We believe that every construction project is an opportunity to create something extraordinary, and we approach each job with the same dedication and attention to detail that we brought to our very first project.
