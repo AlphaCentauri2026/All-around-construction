@@ -19,7 +19,7 @@ const About: React.FC<SectionProps> = ({ className = "" }) => {
     <section
       className={`py-16 bg-cover bg-center bg-no-repeat relative ${className}`}
       style={{
-        backgroundImage: "url('/images/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_0.jpg')"
+        backgroundImage: "url('/All around construction images/pexels-life-of-pix-2489.jpg')"
       }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
@@ -54,7 +54,7 @@ const About: React.FC<SectionProps> = ({ className = "" }) => {
             <div className="relative">
               <div className="aspect-w-4 aspect-h-3 bg-gray-200 rounded-lg overflow-hidden shadow-xl">
                 <img
-                  src="/images/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_1.jpg"
+                  src="/All around construction images/pexels-rezwan-1216544.jpg"
                   alt="Modern Construction Company"
                   className="w-full h-full object-cover"
                 />

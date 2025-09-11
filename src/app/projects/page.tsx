@@ -108,7 +108,7 @@ export default function Projects() {
                       </div>
                     </div>
                     <div className="relative group">
-                      <img src="/Leonardo_Vision_XL_Commercial_building_under_construction_cran_2.jpg" alt="Commercial Project" className="w-full h-32 object-cover rounded-lg" />
+                      <img src="/All around construction images/construction-4754309_1280.jpg" alt="Commercial Project" className="w-full h-32 object-cover rounded-lg" />
                       <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
                         <span className="text-white font-semibold">Commercial</span>
                       </div>
@@ -116,13 +116,13 @@ export default function Projects() {
                   </div>
                   <div className="space-y-4 mt-8">
                     <div className="relative group">
-                      <img src="/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_2.jpg" alt="Heavy Equipment" className="w-full h-32 object-cover rounded-lg" />
+                      <img src="/All around construction images/excavator-6669780_1280.jpg" alt="Heavy Equipment" className="w-full h-32 object-cover rounded-lg" />
                       <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
                         <span className="text-white font-semibold">Machinery</span>
                       </div>
                     </div>
                     <div className="relative group">
-                      <img src="/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_2.jpg" alt="Renovation" className="w-full h-48 object-cover rounded-lg" />
+                      <img src="/All around construction images/pexels-sevenstormphotography-439416.jpg" alt="Renovation" className="w-full h-48 object-cover rounded-lg" />
                       <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
                         <span className="text-white font-semibold">Renovation</span>
                       </div>

@@ -79,7 +79,7 @@ export default function Services() {
                       <h3 className="text-white font-semibold">Residential</h3>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <img src="/Leonardo_Vision_XL_Commercial_building_under_construction_cran_3.jpg" alt="Commercial Construction" className="w-full h-24 object-cover rounded mb-2" />
+                      <img src="/All around construction images/construction-4754309_1280.jpg" alt="Commercial Construction" className="w-full h-24 object-cover rounded mb-2" />
                       <h3 className="text-white font-semibold">Commercial</h3>
                     </div>
                   </div>
@@ -181,28 +181,28 @@ export default function Services() {
                   step: "01",
                   title: "Consultation",
                   description: "We discuss your vision, requirements, and budget to understand your project goals.",
-                  image: "/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_0.jpg",
+                  image: "/All around construction images/architect-3979490_1280.jpg",
                   side: "left"
                 },
                 {
                   step: "02",
                   title: "Planning & Design",
                   description: "Detailed project planning, architectural drawings, and material selection using modern construction management tools.",
-                  image: "/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_0.jpg",
+                  image: "/All around construction images/pexels-life-of-pix-2489.jpg",
                   side: "right"
                 },
                 {
                   step: "03",
                   title: "Construction",
                   description: "Expert craftsmanship and quality work with regular progress updates using advanced construction equipment.",
-                  image: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_0.jpg",
+                  image: "/All around construction images/excavator-1174428_1280.jpg",
                   side: "left"
                 },
                 {
                   step: "04",
                   title: "Completion",
                   description: "Final inspection, quality assurance, and project handover with comprehensive documentation.",
-                  image: "/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_0.jpg",
+                  image: "/All around construction images/pexels-rezwan-1078884.jpg",
                   side: "right"
                 }
               ].map((item, index) => (

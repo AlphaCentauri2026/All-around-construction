@@ -112,7 +112,7 @@ const Contact: React.FC<SectionProps> = ({ className = "" }) => {
     <section
       className={`py-16 bg-cover bg-center bg-no-repeat relative ${className}`}
       style={{
-        backgroundImage: "url('/images/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_3.jpg')"
+        backgroundImage: "url('/All around construction images/pexels-rezwan-1145434.jpg')"
       }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>

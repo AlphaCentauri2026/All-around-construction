@@ -12,7 +12,7 @@ import company from '../data/company.json';
  * @returns JSX element
  */
 const Hero: React.FC<HeroProps> = ({ 
-  backgroundImage = "url('/images/Leonardo_Vision_XL_Commercial_building_under_construction_cran_1.jpg')",
+  backgroundImage = "url('/All around construction images/construction-257326_1280.jpg')",
   title,
   subtitle 
 }) => {
