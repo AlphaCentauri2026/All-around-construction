@@ -183,7 +183,7 @@ export default function Team() {
                 <div>
                   <div className="flex items-center mb-6">
                     <img
-                      src="/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_0.jpg"
+                      src="/All around construction images/excavator-1174428_1280.jpg"
                       alt="Heavy Machinery Division"
                       className="w-24 h-24 rounded-full object-cover mr-6"
                     />
@@ -210,7 +210,7 @@ export default function Team() {
                 </div>
                 <div className="relative">
                   <img
-                    src="/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_1.jpg"
+                    src="/All around construction images/excavator-2642387_1280.jpg"
                     alt="Heavy Equipment"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -289,7 +289,7 @@ export default function Team() {
       <section
         className="py-20 relative"
         style={{
-          backgroundImage: "url('/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_2.jpg')",
+          backgroundImage: "url('/All around construction images/pexels-pixabay-159358.jpg')",
           backgroundAttachment: 'fixed',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
@@ -310,21 +310,21 @@ export default function Team() {
                 icon: "⚡",
                 title: "Power & Precision",
                 description: "Our heavy machinery delivers unmatched power and precision for the most demanding construction projects.",
-                image: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_2.jpg",
+                image: "/All around construction images/excavator-6669780_1280.jpg",
                 stat: "500+ HP Fleet"
               },
               {
                 icon: "🎯",
                 title: "Advanced Technology",
                 description: "State-of-the-art equipment with cutting-edge technology ensures superior project outcomes.",
-                image: "/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_2.jpg",
+                image: "/All around construction images/architect-3979490_1280.jpg",
                 stat: "Latest BIM Tech"
               },
               {
                 icon: "🔒",
                 title: "Safety First",
                 description: "All our equipment meets the highest safety standards, protecting our operations and the community.",
-                image: "/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_2.jpg",
+                image: "/All around construction images/pexels-life-of-pix-2489.jpg",
                 stat: "100% Safety Record"
               }
             ].map((value, index) => (
@@ -385,12 +385,12 @@ export default function Team() {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-4">
-                  <img src="/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg" alt="Heavy Equipment" className="w-full h-32 object-cover rounded-lg" />
-                  <img src="/Leonardo_Vision_XL_Commercial_building_under_construction_cran_3.jpg" alt="Crane Operations" className="w-full h-24 object-cover rounded-lg" />
+                  <img src="/All around construction images/excavator-1174428_1280.jpg" alt="Heavy Equipment" className="w-full h-32 object-cover rounded-lg" />
+                  <img src="/All around construction images/construction-257326_1280.jpg" alt="Crane Operations" className="w-full h-24 object-cover rounded-lg" />
                 </div>
                 <div className="space-y-4 mt-8">
-                  <img src="/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_3.jpg" alt="Construction Complex" className="w-full h-24 object-cover rounded-lg" />
-                  <img src="/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_3.jpg" alt="Aerial Operations" className="w-full h-32 object-cover rounded-lg" />
+                  <img src="/All around construction images/pexels-life-of-pix-2489.jpg" alt="Construction Complex" className="w-full h-24 object-cover rounded-lg" />
+                  <img src="/All around construction images/pexels-bidvine-517980-1249611.jpg" alt="Aerial Operations" className="w-full h-32 object-cover rounded-lg" />
                 </div>
               </div>
             </div>

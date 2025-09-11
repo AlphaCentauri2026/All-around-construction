@@ -7,25 +7,25 @@ export default function Services() {
       id: 7,
       title: "Interior Renovation",
       description: "Modern office interior renovations with contemporary design and structural improvements.",
-      image: "/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_3.jpg"
+      image: "/All around construction images/workers-6721726_1280.jpg"
     },
     {
       id: 8,
       title: "Equipment Operations",
       description: "Professional heavy machinery operations for site preparation and construction needs.",
-      image: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg"
+      image: "/All around construction images/excavator-2642387_1280.jpg"
     },
     {
       id: 9,
       title: "Foundation Work",
       description: "Complete foundation and structural work for residential and commercial buildings.",
-      image: "/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_3.jpg"
+      image: "/All around construction images/pexels-quang-nguyen-vinh-222549-2138126.jpg"
     },
     {
       id: 10,
       title: "Project Management",
       description: "State-of-the-art construction management with digital planning and coordination.",
-      image: "/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_3.jpg"
+      image: "/All around construction images/architect-1080589_1280.jpg"
     }
   ];
 
@@ -39,7 +39,7 @@ export default function Services() {
       <section className="relative h-screen pt-16 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/Leonardo_Vision_XL_Commercial_building_under_construction_cran_3.jpg"
+            src="/All around construction images/construction-4754309_1280.jpg"
             alt="Construction Services"
             className="w-full h-full object-cover"
           />
@@ -75,7 +75,7 @@ export default function Services() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-4">
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <img src="/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_3.jpg" alt="Residential Construction" className="w-full h-24 object-cover rounded mb-2" />
+                      <img src="/All around construction images/architect-3979490_1280.jpg" alt="Residential Construction" className="w-full h-24 object-cover rounded mb-2" />
                       <h3 className="text-white font-semibold">Residential</h3>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
@@ -85,11 +85,11 @@ export default function Services() {
                   </div>
                   <div className="space-y-4 mt-8">
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <img src="/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg" alt="Heavy Equipment" className="w-full h-24 object-cover rounded mb-2" />
+                      <img src="/All around construction images/excavator-2642387_1280.jpg" alt="Heavy Equipment" className="w-full h-24 object-cover rounded mb-2" />
                       <h3 className="text-white font-semibold">Equipment</h3>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <img src="/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_3.jpg" alt="Renovation" className="w-full h-24 object-cover rounded mb-2" />
+                      <img src="/All around construction images/workers-6721726_1280.jpg" alt="Renovation" className="w-full h-24 object-cover rounded mb-2" />
                       <h3 className="text-white font-semibold">Renovations</h3>
                     </div>
                   </div>
@@ -156,7 +156,7 @@ export default function Services() {
       <section 
         className="py-20 relative"
         style={{
-          backgroundImage: "url('/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_3.jpg')",
+          backgroundImage: "url('/All around construction images/pexels-pixabay-159358.jpg')",
           backgroundAttachment: 'fixed',
           backgroundSize: 'cover',
           backgroundPosition: 'center'

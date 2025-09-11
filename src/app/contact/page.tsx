@@ -10,7 +10,7 @@ export default function Contact() {
       <section className="relative h-screen pt-16 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_0.jpg"
+            src="/All around construction images/pexels-bidvine-517980-1249611.jpg"
             alt="Contact Us"
             className="w-full h-full object-cover"
           />
@@ -264,25 +264,25 @@ export default function Contact() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Our Equipment Divisions</h3>
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center">
-                    <img src="/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_0.jpg" alt="Heavy Machinery" className="w-20 h-20 rounded-full mx-auto mb-3 object-cover" />
+                    <img src="/All around construction images/excavator-1174428_1280.jpg" alt="Heavy Machinery" className="w-20 h-20 rounded-full mx-auto mb-3 object-cover" />
                     <h4 className="font-bold text-gray-900">Heavy Equipment</h4>
                     <p className="text-orange-600 text-sm font-semibold">500+ HP Power</p>
                     <p className="text-gray-500 text-xs">equipment@company.com</p>
                   </div>
                   <div className="text-center">
-                    <img src="/Leonardo_Vision_XL_Commercial_building_under_construction_cran_0.jpg" alt="Crane Operations" className="w-20 h-20 rounded-full mx-auto mb-3 object-cover" />
+                    <img src="/All around construction images/construction-257326_1280.jpg" alt="Crane Operations" className="w-20 h-20 rounded-full mx-auto mb-3 object-cover" />
                     <h4 className="font-bold text-gray-900">Crane Division</h4>
                     <p className="text-orange-600 text-sm font-semibold">200 Ton Capacity</p>
                     <p className="text-gray-500 text-xs">crane@company.com</p>
                   </div>
                   <div className="text-center">
-                    <img src="/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_0.jpg" alt="Project Management" className="w-20 h-20 rounded-full mx-auto mb-3 object-cover" />
+                    <img src="/All around construction images/architect-3979490_1280.jpg" alt="Project Management" className="w-20 h-20 rounded-full mx-auto mb-3 object-cover" />
                     <h4 className="font-bold text-gray-900">Project Hub</h4>
                     <p className="text-orange-600 text-sm font-semibold">Digital Operations</p>
                     <p className="text-gray-500 text-xs">projects@company.com</p>
                   </div>
                   <div className="text-center">
-                    <img src="/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_0.jpg" alt="Construction Complex" className="w-20 h-20 rounded-full mx-auto mb-3 object-cover" />
+                    <img src="/All around construction images/pexels-life-of-pix-2489.jpg" alt="Construction Complex" className="w-20 h-20 rounded-full mx-auto mb-3 object-cover" />
                     <h4 className="font-bold text-gray-900">Main Complex</h4>
                     <p className="text-orange-600 text-sm font-semibold">Operations Center</p>
                     <p className="text-gray-500 text-xs">office@company.com</p>
@@ -298,7 +298,7 @@ export default function Contact() {
       <section 
         className="py-20 relative"
         style={{
-          backgroundImage: "url('/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_3.jpg')",
+          backgroundImage: "url('/All around construction images/pexels-pixabay-159358.jpg')",
           backgroundAttachment: 'fixed',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
@@ -344,7 +344,7 @@ export default function Contact() {
               </div>
               <div className="relative">
                 <img
-                  src="/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_1.jpg"
+                  src="/All around construction images/pexels-rezwan-1216544.jpg"
                   alt="Office Location"
                   className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                 />

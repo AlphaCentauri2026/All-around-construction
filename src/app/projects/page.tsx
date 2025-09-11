@@ -7,42 +7,42 @@ export default function Projects() {
       id: 7,
       title: "Modern Residential Complex",
       description: "Large-scale residential development featuring contemporary design and sustainable building practices.",
-      image: "/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_3.jpg",
+      image: "/All around construction images/architect-1080589_1280.jpg",
       category: "Residential"
     },
     {
       id: 8,
       title: "Office Space Renovation",
       description: "Complete office renovation with modern interiors and advanced construction techniques.",
-      image: "/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_3.jpg",
+      image: "/All around construction images/pexels-sevenstormphotography-439416.jpg",
       category: "Renovation"
     },
     {
       id: 9,
       title: "Commercial Building Project",
       description: "Ground-up commercial construction with crane operations and structural steel work.",
-      image: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_3.jpg",
+      image: "/All around construction images/construction-4754309_1280.jpg",
       category: "Commercial"
     },
     {
       id: 10,
       title: "Construction Management Hub",
       description: "Modern project management facility with digital planning tools and coordination spaces.",
-      image: "/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_3.jpg",
+      image: "/All around construction images/architect-3979490_1280.jpg",
       category: "Management"
     },
     {
       id: 11,
       title: "Heavy Equipment Operations",
       description: "Site development project utilizing advanced heavy machinery and earth-moving equipment.",
-      image: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg",
+      image: "/All around construction images/excavator-6669780_1280.jpg",
       category: "Machinery"
     },
     {
       id: 12,
       title: "Foundation & Site Work",
       description: "Complete foundation work and site preparation for large-scale construction projects.",
-      image: "/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_3.jpg",
+      image: "/All around construction images/pexels-rezwan-1145434.jpg",
       category: "Foundation"
     }
   ];
@@ -57,7 +57,7 @@ export default function Projects() {
       <section className="relative h-screen pt-16 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_2.jpg"
+            src="/All around construction images/pexels-pixabay-159358.jpg"
             alt="Construction Projects"
             className="w-full h-full object-cover"
           />
@@ -102,7 +102,7 @@ export default function Projects() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-4">
                     <div className="relative group">
-                      <img src="/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_2.jpg" alt="Residential Project" className="w-full h-48 object-cover rounded-lg" />
+                      <img src="/All around construction images/pexels-rezwan-1216544.jpg" alt="Residential Project" className="w-full h-48 object-cover rounded-lg" />
                       <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
                         <span className="text-white font-semibold">Residential</span>
                       </div>
@@ -151,7 +151,7 @@ export default function Projects() {
               <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="relative h-96 lg:h-auto">
                   <img
-                    src="/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_2.jpg"
+                    src="/All around construction images/pexels-life-of-pix-2489.jpg"
                     alt="Featured Project"
                     className="w-full h-full object-cover"
                   />
@@ -252,7 +252,7 @@ export default function Projects() {
       <section 
         className="py-20 relative"
         style={{
-          backgroundImage: "url('/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_3.jpg')",
+          backgroundImage: "url('/All around construction images/pexels-bidvine-517980-1249611.jpg')",
           backgroundAttachment: 'fixed',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
@@ -272,28 +272,28 @@ export default function Projects() {
               {
                 title: "Residential",
                 description: "Modern Homes & Developments",
-                image: "/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_3.jpg",
+                image: "/All around construction images/architect-1080589_1280.jpg",
                 count: "25+",
                 projects: "Projects"
               },
               {
                 title: "Commercial",
                 description: "Office Buildings & Towers",
-                image: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_3.jpg",
+                image: "/All around construction images/construction-4754309_1280.jpg",
                 count: "15+",
                 projects: "Projects"
               },
               {
                 title: "Heavy Equipment",
                 description: "Machinery & Site Operations",
-                image: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg",
+                image: "/All around construction images/excavator-6669780_1280.jpg",
                 count: "20+",
                 projects: "Machines"
               },
               {
                 title: "Foundation Work",
                 description: "Site Development & Foundations",
-                image: "/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_3.jpg",
+                image: "/All around construction images/pexels-rezwan-1145434.jpg",
                 count: "30+",
                 projects: "Sites"
               }
@@ -333,21 +333,21 @@ export default function Projects() {
               {
                 name: "Johnson Property Development",
                 role: "Construction Client",
-                image: "/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_1.jpg",
+                image: "/All around construction images/pexels-rezwan-1078884.jpg",
                 quote: "Outstanding modern construction techniques and attention to detail! They delivered exceptional quality in our residential development project.",
                 rating: 5
               },
               {
                 name: "Chen Commercial Group",
                 role: "Commercial Client",
-                image: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_1.jpg",
+                image: "/All around construction images/construction-257326_1280.jpg",
                 quote: "Completed on time and within budget using state-of-the-art equipment. Highly recommend their professional operations and excellent project management.",
                 rating: 5
               },
               {
                 name: "Park Office Solutions",
                 role: "Renovation Client",
-                image: "/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_1.jpg",
+                image: "/All around construction images/pexels-pixabay-534220.jpg",
                 quote: "Professional team with excellent communication and modern renovation techniques. They made our office renovation project stress-free and enjoyable.",
                 rating: 5
               }

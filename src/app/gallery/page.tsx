@@ -3,22 +3,22 @@ import { Navigation, Footer } from '../../components';
 export default function Gallery() {
   const galleryImages = [
     // Aerial Views
-    { src: "/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_0.jpg", alt: "Aerial View of Modern Construction Site", category: "Aerial Views" },
-    { src: "/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_1.jpg", alt: "Bird's Eye View Construction Site", category: "Aerial Views" },
-    { src: "/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_2.jpg", alt: "Overhead Construction Site View", category: "Aerial Views" },
-    { src: "/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_3.jpg", alt: "Aerial Construction Site Perspective", category: "Aerial Views" },
+    { src: "/All around construction images/pexels-bidvine-517980-1249611.jpg", alt: "Aerial View of Modern Construction Site", category: "Aerial Views" },
+    { src: "/All around construction images/pexels-pixabay-159358.jpg", alt: "Bird's Eye View Construction Site", category: "Aerial Views" },
+    { src: "/All around construction images/pexels-pixabay-534220.jpg", alt: "Overhead Construction Site View", category: "Aerial Views" },
+    { src: "/All around construction images/workers-6721726_1280.jpg", alt: "Aerial Construction Site Perspective", category: "Aerial Views" },
 
     // Construction Machinery
-    { src: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_0.jpg", alt: "Heavy Construction Equipment", category: "Machinery" },
-    { src: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_1.jpg", alt: "Professional Bulldozer Operations", category: "Machinery" },
-    { src: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_2.jpg", alt: "Advanced Construction Machinery", category: "Machinery" },
-    { src: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg", alt: "Heavy Equipment at Work", category: "Machinery" },
+    { src: "/All around construction images/excavator-1174428_1280.jpg", alt: "Heavy Construction Equipment", category: "Machinery" },
+    { src: "/All around construction images/excavator-2642387_1280.jpg", alt: "Professional Bulldozer Operations", category: "Machinery" },
+    { src: "/All around construction images/excavator-6669780_1280.jpg", alt: "Advanced Construction Machinery", category: "Machinery" },
+    { src: "/All around construction images/construction-257326_1280.jpg", alt: "Heavy Equipment at Work", category: "Machinery" },
 
     // Commercial Construction
-    { src: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_0.jpg", alt: "Commercial Building with Crane", category: "Commercial" },
-    { src: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_1.jpg", alt: "Office Tower Construction", category: "Commercial" },
-    { src: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_2.jpg", alt: "High-Rise Commercial Project", category: "Commercial" },
-    { src: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_3.jpg", alt: "Commercial Construction Site", category: "Commercial" },
+    { src: "/All around construction images/construction-4754309_1280.jpg", alt: "Commercial Building with Crane", category: "Commercial" },
+    { src: "/All around construction images/construction-257326_1280.jpg", alt: "Office Tower Construction", category: "Commercial" },
+    { src: "/All around construction images/pexels-rezwan-1216544.jpg", alt: "High-Rise Commercial Project", category: "Commercial" },
+    { src: "/All around construction images/pexels-rezwan-1145434.jpg", alt: "Commercial Construction Site", category: "Commercial" },
 
     // Residential Construction
     { src: "/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_0.jpg", alt: "Modern Residential Construction", category: "Residential" },
