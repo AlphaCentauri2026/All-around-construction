@@ -7,7 +7,7 @@ export default function Team() {
       name: "Heavy Machinery Division",
       type: "Equipment Operations",
       description: "Our advanced heavy machinery fleet handles the most demanding construction projects with precision and power.",
-      image: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_0.jpg",
+      image: "/All around construction images/excavator-1174428_1280.jpg",
       capabilities: ["Excavation", "Site Preparation", "Heavy Lifting"],
       power: "500+ HP Combined",
       projects: "100+ Sites"
@@ -17,7 +17,7 @@ export default function Team() {
       name: "Crane Operations",
       type: "High-Rise Construction",
       description: "State-of-the-art crane operations for commercial and high-rise construction projects.",
-      image: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_0.jpg",
+      image: "/All around construction images/construction-257326_1280.jpg",
       capabilities: ["Tower Crane Operations", "Material Lifting", "Structural Assembly"],
       capacity: "200 Ton Capacity",
       projects: "50+ High-Rises"
@@ -27,7 +27,7 @@ export default function Team() {
       name: "Modern Construction Complex",
       type: "Operations Headquarters",
       description: "Our state-of-the-art construction complex serves as the nerve center for all project operations.",
-      image: "/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_0.jpg",
+      image: "/All around construction images/pexels-life-of-pix-2489.jpg",
       capabilities: ["Project Management", "Equipment Storage", "Material Procurement"],
       size: "50,000 sq ft",
       projects: "500+ Managed"
@@ -37,7 +37,7 @@ export default function Team() {
       name: "Project Management Hub",
       type: "Digital Operations Center",
       description: "Advanced project management facilities with digital planning tools and coordination systems.",
-      image: "/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_0.jpg",
+      image: "/All around construction images/architect-3979490_1280.jpg",
       capabilities: ["Digital Planning", "Project Tracking", "Client Coordination"],
       technology: "Latest BIM Software",
       projects: "200+ Digital Projects"
@@ -47,7 +47,7 @@ export default function Team() {
       name: "Foundation Specialists",
       type: "Site Development",
       description: "Specialized foundation work and site development capabilities for complex construction projects.",
-      image: "/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_0.jpg",
+      image: "/All around construction images/pexels-rezwan-1078884.jpg",
       capabilities: ["Foundation Laying", "Site Grading", "Structural Integrity"],
       experience: "25+ Years",
       projects: "300+ Foundations"
@@ -57,7 +57,7 @@ export default function Team() {
       name: "Renovation Division",
       type: "Interior Construction",
       description: "Advanced renovation techniques for modern office spaces and commercial interiors.",
-      image: "/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_0.jpg",
+      image: "/All around construction images/pexels-sevenstormphotography-439416.jpg",
       capabilities: ["Interior Renovation", "Modern Design", "Structural Modifications"],
       expertise: "Contemporary Construction",
       projects: "150+ Renovations"
@@ -67,7 +67,7 @@ export default function Team() {
       name: "Residential Construction",
       type: "Home Building",
       description: "Modern residential construction using sustainable materials and advanced building techniques.",
-      image: "/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_0.jpg",
+      image: "/All around construction images/architect-1080589_1280.jpg",
       capabilities: ["Custom Homes", "Sustainable Design", "Modern Architecture"],
       materials: "Green Certified",
       projects: "75+ Homes"
@@ -77,7 +77,7 @@ export default function Team() {
       name: "Aerial Operations",
       type: "Site Surveillance",
       description: "Aerial view capabilities for comprehensive site management and project oversight.",
-      image: "/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_0.jpg",
+      image: "/All around construction images/pexels-bidvine-517980-1249611.jpg",
       capabilities: ["Site Monitoring", "Progress Tracking", "Safety Oversight"],
       coverage: "Real-time Monitoring",
       projects: "All Active Sites"
@@ -92,7 +92,7 @@ export default function Team() {
       <section className="relative h-screen pt-16 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_1.jpg"
+            src="/All around construction images/pexels-pixabay-159358.jpg"
             alt="Our Equipment & Facilities"
             className="w-full h-full object-cover"
           />
@@ -137,24 +137,24 @@ export default function Team() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-4">
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <img src="/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_0.jpg" alt="Heavy Machinery" className="w-16 h-16 rounded-full mx-auto mb-3 object-cover" />
+                      <img src="/All around construction images/excavator-1174428_1280.jpg" alt="Heavy Machinery" className="w-16 h-16 rounded-full mx-auto mb-3 object-cover" />
                       <h3 className="text-white font-semibold text-center">Heavy Equipment</h3>
                       <p className="text-gray-300 text-sm text-center">500+ HP Power</p>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <img src="/Leonardo_Vision_XL_Commercial_building_under_construction_cran_0.jpg" alt="Crane Operations" className="w-16 h-16 rounded-full mx-auto mb-3 object-cover" />
+                      <img src="/All around construction images/construction-257326_1280.jpg" alt="Crane Operations" className="w-16 h-16 rounded-full mx-auto mb-3 object-cover" />
                       <h3 className="text-white font-semibold text-center">Crane Operations</h3>
                       <p className="text-gray-300 text-sm text-center">200 Ton Capacity</p>
                     </div>
                   </div>
                   <div className="space-y-4 mt-8">
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <img src="/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_0.jpg" alt="Construction Complex" className="w-16 h-16 rounded-full mx-auto mb-3 object-cover" />
+                      <img src="/All around construction images/pexels-life-of-pix-2489.jpg" alt="Construction Complex" className="w-16 h-16 rounded-full mx-auto mb-3 object-cover" />
                       <h3 className="text-white font-semibold text-center">Operations Hub</h3>
                       <p className="text-gray-300 text-sm text-center">50,000 sq ft</p>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                      <img src="/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_0.jpg" alt="Project Management" className="w-16 h-16 rounded-full mx-auto mb-3 object-cover" />
+                      <img src="/All around construction images/architect-3979490_1280.jpg" alt="Project Management" className="w-16 h-16 rounded-full mx-auto mb-3 object-cover" />
                       <h3 className="text-white font-semibold text-center">Digital Center</h3>
                       <p className="text-gray-300 text-sm text-center">Latest BIM Tech</p>
                     </div>

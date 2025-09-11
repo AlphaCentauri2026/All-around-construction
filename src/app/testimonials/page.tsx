@@ -8,7 +8,7 @@ export default function Testimonials() {
       name: "Thompson Construction Services",
       feedback: "Construction Template exceeded our expectations with their professional heavy equipment operations and modern construction techniques. They were always on time and kept us informed throughout the foundation work process.",
       rating: 5,
-      image: "/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_1.jpg",
+      image: "/All around construction images/pexels-rezwan-1078884.jpg",
       project: "Foundation & Site Work"
     },
     {
@@ -16,7 +16,7 @@ export default function Testimonials() {
       name: "Martinez Development Group",
       feedback: "Working with Construction Template was a pleasure. Their attention to detail in machinery operations and commitment to excellence is unmatched. Would definitely hire them again!",
       rating: 5,
-      image: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_1.jpg",
+      image: "/All around construction images/excavator-2642387_1280.jpg",
       project: "Heavy Equipment Operations"
     },
     {
@@ -24,7 +24,7 @@ export default function Testimonials() {
       name: "Davis Commercial Properties",
       feedback: "The quality of work from Construction Template is outstanding. They transformed our commercial space using modern construction techniques and crane operations.",
       rating: 5,
-      image: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_2.jpg",
+      image: "/All around construction images/construction-257326_1280.jpg",
       project: "Commercial Construction"
     },
     {
@@ -32,7 +32,7 @@ export default function Testimonials() {
       name: "Johnson Property Management",
       feedback: "From consultation to completion, Construction Template provided exceptional service. Their expertise in residential construction and professionalism made our project a success.",
       rating: 5,
-      image: "/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_2.jpg",
+      image: "/All around construction images/pexels-rezwan-1216544.jpg",
       project: "Residential Development"
     },
     {
@@ -40,7 +40,7 @@ export default function Testimonials() {
       name: "Thompson Office Solutions",
       feedback: "Construction Template delivered exactly what they promised. Their modern renovation techniques and project management were top-notch throughout our office renovation.",
       rating: 5,
-      image: "/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_2.jpg",
+      image: "/All around construction images/pexels-sevenstormphotography-439416.jpg",
       project: "Office Renovation"
     },
     {
@@ -48,7 +48,7 @@ export default function Testimonials() {
       name: "Rodriguez Construction Management",
       feedback: "We couldn't be happier with our new construction management facility. Construction Template's quality work and advanced equipment made the entire process enjoyable.",
       rating: 5,
-      image: "/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_2.jpg",
+      image: "/All around construction images/architect-1080589_1280.jpg",
       project: "Construction Management"
     }
   ];
@@ -63,7 +63,7 @@ export default function Testimonials() {
       <section className="relative h-screen pt-16 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_0.jpg"
+            src="/All around construction images/pexels-bidvine-517980-1249611.jpg"
             alt="Client Testimonials"
             className="w-full h-full object-cover"
           />
@@ -112,7 +112,7 @@ export default function Testimonials() {
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
                   <div className="flex items-center mb-6">
                     <img
-                      src="/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_0.jpg"
+                      src="/All around construction images/pexels-life-of-pix-2489.jpg"
                       alt="Client"
                       className="w-16 h-16 rounded-full object-cover mr-4"
                     />
@@ -155,7 +155,7 @@ export default function Testimonials() {
                 <div>
                   <div className="flex items-center mb-6">
                     <img
-                      src="/Leonardo_Vision_XL_Commercial_building_under_construction_cran_1.jpg"
+                      src="/All around construction images/construction-4754309_1280.jpg"
                       alt="Featured Client"
                       className="w-20 h-20 rounded-full object-cover mr-6"
                     />
@@ -192,7 +192,7 @@ export default function Testimonials() {
                 </div>
                 <div className="relative">
                   <img
-                    src="/Leonardo_Vision_XL_Commercial_building_under_construction_cran_2.jpg"
+                    src="/All around construction images/construction-257326_1280.jpg"
                     alt="Commercial Project"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -272,7 +272,7 @@ export default function Testimonials() {
       <section 
         className="py-20 relative"
         style={{
-          backgroundImage: "url('/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_3.jpg')",
+          backgroundImage: "url('/All around construction images/pexels-pixabay-159358.jpg')",
           backgroundAttachment: 'fixed',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
@@ -292,8 +292,8 @@ export default function Testimonials() {
               {
                 name: "Johnson Property Development",
                 project: "Modern Residential Complex",
-                image: "/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_2.jpg",
-                projectImage: "/Leonardo_Vision_XL_Construction_of_a_modern_residential_house_3.jpg",
+                image: "/All around construction images/pexels-life-of-pix-2489.jpg",
+                projectImage: "/All around construction images/architect-1080589_1280.jpg",
                 quote: "They delivered exceptional quality in our residential development using modern construction techniques.",
                 value: "$2.5M",
                 duration: "12 months"
@@ -301,8 +301,8 @@ export default function Testimonials() {
               {
                 name: "Chen Commercial Group",
                 project: "Commercial Tower Project",
-                image: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_3.jpg",
-                projectImage: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_1.jpg",
+                image: "/All around construction images/construction-4754309_1280.jpg",
+                projectImage: "/All around construction images/construction-257326_1280.jpg",
                 quote: "Professional crane operations and modern construction techniques throughout our commercial project.",
                 value: "$8.5M",
                 duration: "18 months"
@@ -310,8 +310,8 @@ export default function Testimonials() {
               {
                 name: "Park Office Solutions",
                 project: "Office Renovation",
-                image: "/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_3.jpg",
-                projectImage: "/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_1.jpg",
+                image: "/All around construction images/pexels-sevenstormphotography-439416.jpg",
+                projectImage: "/All around construction images/pexels-pixabay-534220.jpg",
                 quote: "Quality renovation work using advanced construction methods made the process enjoyable.",
                 value: "$450K",
                 duration: "3 months"

@@ -10,7 +10,7 @@ export default function About() {
       <section
         className="relative h-96 bg-cover bg-center bg-no-repeat pt-16"
         style={{
-          backgroundImage: "url('/Leonardo_Vision_XL_Aerial_view_of_a_modern_construction_site_w_0.jpg')"
+          backgroundImage: "url('/All around construction images/pexels-bidvine-517980-1249611.jpg')"
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -46,7 +46,7 @@ export default function About() {
             </div>
             <div className="relative">
               <img
-                src="/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_0.jpg"
+                src="/All around construction images/pexels-life-of-pix-2489.jpg"
                 alt="Modern Construction Company"
                 className="w-full h-96 object-cover rounded-lg shadow-xl"
               />
@@ -89,10 +89,10 @@ export default function About() {
             <h3 className="text-3xl font-bold text-center mb-8">Our Equipment & Facilities</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
-                { src: "/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_0.jpg", alt: "Heavy Machinery", title: "Heavy Equipment", desc: "Advanced bulldozers & excavators" },
-                { src: "/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_0.jpg", alt: "Modern Office", title: "Project Management", desc: "State-of-the-art planning facilities" },
-                { src: "/Leonardo_Vision_XL_Commercial_building_under_construction_cran_0.jpg", alt: "Construction Crane", title: "Crane Operations", desc: "High-rise construction capabilities" },
-                { src: "/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_0.jpg", alt: "Construction Complex", title: "Modern Facilities", desc: "Professional construction complex" }
+                { src: "/All around construction images/excavator-1174428_1280.jpg", alt: "Heavy Machinery", title: "Heavy Equipment", desc: "Advanced bulldozers & excavators" },
+                { src: "/All around construction images/architect-3979490_1280.jpg", alt: "Modern Office", title: "Project Management", desc: "State-of-the-art planning facilities" },
+                { src: "/All around construction images/construction-257326_1280.jpg", alt: "Construction Crane", title: "Crane Operations", desc: "High-rise construction capabilities" },
+                { src: "/All around construction images/pexels-life-of-pix-2489.jpg", alt: "Construction Complex", title: "Modern Facilities", desc: "Professional construction complex" }
               ].map((item, i) => (
                 <div key={i} className="text-center">
                   <img
@@ -118,7 +118,7 @@ export default function About() {
                 Every project we undertake is an opportunity to demonstrate our dedication to excellence and our passion for creating spaces that inspire and endure.
               </p>
               <img
-                src="/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_0.jpg"
+                src="/All around construction images/pexels-rezwan-1078884.jpg"
                 alt="Our Mission"
                 className="w-full h-48 object-cover rounded-lg"
               />
@@ -148,7 +148,7 @@ export default function About() {
                 </li>
               </ul>
               <img
-                src="/Leonardo_Vision_XL_Renovation_project_inside_a_modern_office_c_0.jpg"
+                src="/All around construction images/pexels-sevenstormphotography-439416.jpg"
                 alt="Our Values"
                 className="w-full h-48 object-cover rounded-lg"
               />

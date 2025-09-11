@@ -93,14 +93,14 @@ export default function Home() {
                 <div className="space-y-4">
                   <div className="aspect-square rounded-xl overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-500">
                     <img
-                      src="/Leonardo_Vision_XL_Exterior_view_of_a_modern_construction_comp_2.jpg"
+                      src="/All around construction images/pexels-life-of-pix-2489.jpg"
                       alt="Modern Construction Company"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="aspect-square rounded-xl overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-500 delay-100">
                     <img
-                      src="/Leonardo_Vision_XL_Modern_construction_office_interior_with_ar_3.jpg"
+                      src="/All around construction images/architect-3979490_1280.jpg"
                       alt="Construction Management Office"
                       className="w-full h-full object-cover"
                     />
@@ -109,14 +109,14 @@ export default function Home() {
                 <div className="space-y-4 mt-8">
                   <div className="aspect-square rounded-xl overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-500 delay-200">
                     <img
-                      src="/Leonardo_Vision_XL_Closeup_of_construction_machinery_like_bull_3.jpg"
+                      src="/All around construction images/excavator-1174428_1280.jpg"
                       alt="Heavy Construction Equipment"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="aspect-square rounded-xl overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-500 delay-300">
                     <img
-                      src="/Leonardo_Vision_XL_Construction_site_overview_showing_foundati_2.jpg"
+                      src="/All around construction images/pexels-rezwan-1145434.jpg"
                       alt="Construction Site Overview"
                       className="w-full h-full object-cover"
                     />
@@ -304,7 +304,7 @@ export default function Home() {
 
       {/* CTA Strip */}
       <section className="py-16 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/Leonardo_Vision_XL_Commercial_building_under_construction_cran_1.jpg')] bg-cover bg-center opacity-10"></div>
+        <div className="absolute inset-0 bg-[url('/All around construction images/construction-4754309_1280.jpg')] bg-cover bg-center opacity-10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="text-white">
