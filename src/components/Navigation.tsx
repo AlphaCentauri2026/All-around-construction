@@ -69,7 +69,7 @@ const Navigation: React.FC = () => {
                 <button
                   key={item.name}
                   onClick={() => handleNavigation(item.href)}
-                  className="text-gray-700 hover:text-orange-600 px-3 py-2 rounded-md text-lg font-medium transition-colors duration-300"
+                  className="text-gray-700 hover:text-orange-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-300"
                 >
                   {item.name}
                 </button>
