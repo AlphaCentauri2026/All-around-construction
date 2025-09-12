@@ -8,7 +8,7 @@ export default function About() {
 
       {/* Hero Section */}
       <section
-        className="relative h-96 bg-cover bg-center bg-no-repeat pt-16"
+        className="relative h-96 bg-cover bg-center bg-no-repeat pt-20"
         style={{
           backgroundImage: "url('/All around construction images/pexels-bidvine-517980-1249611.jpg')"
         }}

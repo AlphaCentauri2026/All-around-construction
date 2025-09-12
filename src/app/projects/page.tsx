@@ -54,7 +54,7 @@ export default function Projects() {
       <Navigation />
 
       {/* Hero Section with Portfolio Preview */}
-      <section className="relative h-screen pt-16 overflow-hidden">
+      <section className="relative h-screen pt-20 overflow-hidden">
         <div className="absolute inset-0">
           <img
             src="/All around construction images/pexels-pixabay-159358.jpg"

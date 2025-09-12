@@ -10,7 +10,7 @@ export default function Home() {
       <Navigation />
 
       {/* Trust Building Top Bar */}
-      <section className="bg-slate-900 text-white py-3">
+      <section className="bg-slate-900 text-white py-3 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center items-center gap-8 text-sm">
             <div className="flex items-center gap-2">

@@ -36,7 +36,7 @@ export default function Services() {
       <Navigation />
 
       {/* Hero Section with Split Layout */}
-      <section className="relative h-screen pt-16 overflow-hidden">
+      <section className="relative h-screen pt-20 overflow-hidden">
         <div className="absolute inset-0">
           <img
             src="/All around construction images/construction-4754309_1280.jpg"

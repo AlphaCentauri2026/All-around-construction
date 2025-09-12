@@ -58,7 +58,7 @@ export default function Gallery() {
       <Navigation />
 
       {/* Hero Section with Gallery Preview */}
-      <section className="relative h-screen pt-16 overflow-hidden">
+      <section className="relative h-screen pt-20 overflow-hidden">
         <div className="absolute inset-0">
           <img
             src="/All around construction images/pexels-pixabay-534220.jpg"
